@@ -1,0 +1,26 @@
+<div>
+    <form #formRef = "ngForm">
+      <div class="form-group">
+        <label for="productName">Product name</label>
+        <input name = "productName" id="productName" class="form-control"
+          type="text" required placeholder="Please enter product name" 
+          [(ngModel)] = "newProduct.name">
+      </div>
+      <div class="form-group">
+        <label for="productDesc">Product desc</label>
+        <textarea name = "productDesc" id="productDesc" class="form-control"
+         placeholder="Please enter product description" 
+          [(ngModel)] = "newProduct.desc" rows="3">
+        </textarea>
+      </div>
+      <div class="row">
+        <div class = "col-md-12">
+          <button type="submit" class="btn btn-primary pull-right"
+            (click) = "addProduct()"
+          > Add product </button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <br/>
+  <br/> 

@@ -1,0 +1,21 @@
+.difficult {
+	min-width: 65px;
+	margin-right: 18px;
+}
+ .badge.desc {
+	padding-top: 0.6em;
+	color: #fbfdfa;
+	font-size: 12px;
+}
+ .title {
+	font-size: 1.2em;
+}
+ .diff-LIPSTICK {
+	background-color: #42ebf4;
+}
+ .diff-SHOES {
+	background-color: #92cf5c;
+}
+ .diff-BAGS {
+    background-color: #dd0d1e;
+}
