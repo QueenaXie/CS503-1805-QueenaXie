@@ -11,7 +11,7 @@ declare var ace: any;
 export class EditorComponent implements OnInit {
 	editor: any;
   sessionId: string;
-	public languages: string[] = ['Java', 'Python'];
+	public languages: string[] = ['Java', 'Python','C++'];
 	language: string = 'Java';
 
 	defaultContent = {
@@ -24,6 +24,10 @@ export class EditorComponent implements OnInit {
 		'Python': `class Solution:
 			def example():
 				# write your Python code here`
+    ,
+    'C++': `class Solution:
+      def exampleC():
+        # write your c++ code here`
 	};
 
   constructor(private collaboration: CollaborationService,
